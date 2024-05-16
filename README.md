@@ -6,4 +6,4 @@ This was developed in JDK 1.3 version of Java. Some day I plan to uprgrade this 
 
 If anyone is interested in this do let me know.
 
-THanks
+Cheers
