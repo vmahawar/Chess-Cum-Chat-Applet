@@ -1,0 +1,10 @@
+Chess Applet:
+~~~~~~~~~~~
+1) The Player opens the webpage "Main.html" in any Java Enabled Web Browser.
+2) The page displays all the information to the user related to the usage of the Chess and Chat Applet.
+3) Once the user is familiar with how to use the components of the Applet (Both Chess & Chat), the user can start play by clicking on the link "Start Play" at the bottom of the same webpage.
+4) The User will be directed to the webpage "Chess.html". Here he has to Login by typing a login name in the text field and press enter.
+5) Chess-cum-Chat Applet will be displayed.
+6) If opponent is found he can start playing else he has to wait till opponent is found.
+7) The Game finishes when anyone user logs off or any player is Checkmated!!
+8) To play new game User has to relogin.

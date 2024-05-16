@@ -1,0 +1,187 @@
+<HTML>
+<HEAD><TITLE>Chess-cum-Chat Applet</TITLE></HEAD>
+<BODY bgcolor=#D9D6CA>
+<font face="Garamond">
+<img src="Images/BPawn.gif" align=left width="35" height="38">
+<img src="Images/WPawn.gif" align=right width="36" height="36"> </font>
+<center>
+<table border=0>
+<tr><td>
+<font size=7 face="Garamond">CHESS CUM CHAT</font><font face="Garamond"> </font>
+</td></tr>
+</table>
+</center>
+<p align="center">
+<font size=5 color=navy face="Garamond"><b>Purpose of the Game Chess</b></font></p>
+<p align="left"><font face="Garamond">The primary objective in chess is to <cite>checkmate</cite> your opponent's King. When a King cannot avoid capture then it is <cite>checkmated</cite> and the game is immediately over. If a King is threatened with capture, but has a means to escape, then it is said to be in <cite>check</cite>. A King cannot move into check, and if in check must move out of check immediately. There are three ways you may move out of check:</font></p>
+<p align="left"><font face="Garamond">
+1) Capture the checking piece;<br>
+2) Block the line of attack by placing one of your own pieces between the checking piece and the King. (Of course, a Knight cannot be blocked.); <br>
+3) Move the King away from check.</font></p>
+<p align="left"><font face="Garamond">If a King is not in check, and no other legal move is possible, then the position is said to be in 
+<b>stalemate</b>. A <cite>stalemated</cite> game is a draw, or a tie.</font></p>
+<ul>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#Pieces">Getting familiar with 
+  pieces.</a></font></li>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#MakeMove">How to make move.</a></font></li>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#CapturePeice">How to capture 
+  opponent piece.</a></font></li>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#DeactivateSquare">How to 
+  reconsider a piece to move.</a></font></li>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#Castling">How to perform a 
+  castling.</a></font></li>
+  <li>
+  <p align="left"><font face="Garamond"><a href="#Enpassant">How to perform an 
+  en-passant.</a></font></li>
+</ul>
+<p align="center"><font size=5 face="Garamond"><a href="Chess.html">
+<font color="#FF0000">Start Play</font></a></font></p>
+<center><font face="Garamond">
+<img src="Images/Chess-Chat-Marked.gif" width="717" height="489"><br>
+<font size=3><b>Developed By: Aditya,Ajay and Vijay</b></font></font></center>
+<p align="left"><u><font size=4 color=navy face="Garamond"><b>
+<a name="Pieces">Getting familiar with pieces</a></b></font></u></p>
+<p align="left"><b><font face="Garamond" size="4">White Pieces</font></b></p>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="588" id="AutoNumber3" height="85">
+  <tr>
+    <td width="100" align="center" height="1">
+
+<img src="Images/WPawn.gif" width="36" height="36"></td>
+    <td width="89" align="center" height="1">&nbsp;
+<img src="Images/WRook.gif" width="34" height="36"></td>
+    <td width="109" align="center" height="1">
+<img src="Images/WKnight.gif" width="34" height="40"></td>
+    <td width="93" align="center" height="1">
+<img src="Images/WBishop.gif" width="36" height="42"></td>
+    <td width="95" align="center" height="1">
+<img src="Images/WQueen.gif" width="40" height="44"></td>
+    <td width="102" align="center" height="1">
+<img src="Images/WKing.gif" width="38" height="46"></td>
+  </tr>
+  <tr>
+    <td width="100" align="center" height="13"><b>White Pawn</b></td>
+    <td width="89" align="center" height="13"><b>White Rook</b></td>
+    <td width="109" align="center" height="13"><b>White Knight</b></td>
+    <td width="93" align="center" height="13"><b>White Bishop</b></td>
+    <td width="95" align="center" height="13"><b>White Queen</b></td>
+    <td width="102" align="center" height="13"><b>White King</b></td>
+  </tr>
+</table>
+</center>
+&nbsp;<p><b><font face="Garamond" size="4">&nbsp;Black Pieces</font></b></p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="594" id="AutoNumber4" height="92">
+    <tr>
+      <td width="101" height="65" align="center">
+<img src="Images/BPawn.gif" width="35" height="38"></td>
+      <td width="86" height="65" align="center">
+<img src="Images/BRook.gif" width="34" height="36"></td>
+      <td width="109" height="65" align="center">
+<img src="Images/BKnight.gif" width="37" height="42"></td>
+      <td width="92" height="65" align="center">
+<img src="Images/BBishop.gif" width="36" height="42"></td>
+      <td width="101" height="65" align="center">
+<img src="Images/BQueen.gif" width="38" height="45"></td>
+      <td width="98" height="65" align="center">
+<img src="Images/BKing.gif" width="38" height="44"></td>
+    </tr>
+    <tr>
+      <td width="101" height="27" align="center"><b>Black Pawn</b></td>
+      <td width="86" height="27" align="center"><b>Black Rook</b></td>
+      <td width="109" height="27" align="center"><b>Black Knight</b></td>
+      <td width="92" height="27" align="center"><b>Black Bishop</b></td>
+      <td width="101" height="27" align="center"><b>Black Queen</b></td>
+      <td width="98" height="27" align="center"><b>Black King</b></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<hr>
+
+<p align="left"><font face="Garamond"><u><font size=4 color=navy><b>
+<a name="MakeMove">How to make move (It is a two-click process) </a>
+</b></font></u><br>
+The chess game is fully mouse oriented and key board is not functional.</font></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="18%" valign="top"><b><font face="Garamond">First Click:</font></b></td>
+    <td width="82%" valign="top"><font face="Garamond">On the square containing 
+    the piece which the player wants to move. (The player can move only his 
+    piece), the square gets highlighted by RED colour.</font></td>
+  </tr>
+  <tr>
+    <td width="18%"><b><font face="Garamond">Second Click:</font></b></td>
+    <td width="82%"><font face="Garamond">The square where he want the piece to 
+    move. </font></td>
+  </tr>
+</table>
+<hr>
+<p align="justify"><u><font size=4 color=navy face="Garamond"><b>
+<a name="CapturePeice">How to capture opponent piece</a></b></font></u></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+  <tr>
+    <td width="18%" valign="top"><b><font face="Garamond">First Click:</font></b></td>
+    <td width="82%" valign="top"><font face="Garamond">&nbsp;On the square 
+    containing the piece which the player wants to move. (The player can move only his 
+    piece), the square gets highlighted by RED colour. </font></td>
+  </tr>
+  <tr>
+    <td width="18%"><b><font face="Garamond">Second Click:</font></b></td>
+    <td width="82%"><font face="Garamond">The square containing the opponent 
+    piece which the player wants to capture. </font></td>
+  </tr>
+</table>
+<hr>
+<p align="justify"><font face="Garamond"><u><font size=4 color=navy><b>
+<a name="DeactivateSquare">How to reconsider a piece to move (Deactivating the selected 
+piece)</a></b></font></u><br>
+Once the user as clicked on the piece to move and rethinks on the piece to move, for this he can click on any of his other 
+piece, the highlighted square will be de-activated and he can start over again.<br>
+Single Click on any of your own piece.</font></p>
+<hr>
+<p align="justify"><font face="Garamond"><u><font size=4 color=navy><b>
+<a name="Castling">How to perform a castling</a>
+</b></font></u><br>
+<b>Castling</b> is an important move in chess. It allows a player to quickly move both the King to safety and the Rook to the center for battle. For this reason, wise players carefully guard their ability to castle and usually castle early in the game. Likewise, clever players will attempt to prevent their opponent from castling.<br>
+When castling the player moves his King two squares toward one of the player's Rooks and moves that Rook to the opposite side of the King. A player may not castle if either the King or the Rook involved have already moved. Also, the King may not castle out of, through, or into check. There must be no pieces between the King and Rook when castling.<br>
+To make any castling, whether o-o (short castling) or o-o-o (long castling) the user has to perform following operation:</font></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+  <tr>
+    <td width="18%" valign="top"><b><font face="Garamond">First Click:</font></b></td>
+    <td width="82%" valign="top"><font face="Garamond">On the square containing 
+    the King.</font></td>
+  </tr>
+  <tr>
+    <td width="18%"><b><font face="Garamond">Second Click:</font></b></td>
+    <td width="82%"><font face="Garamond">On the square where the king will be 
+    placed after castling.</font></td>
+  </tr>
+</table>
+<hr>
+<p align="justify"><font face="Garamond"><u><font size=4 color=navy><b>
+<a name="Enpassant">How to perform an en-passant</a></b></font><b><br>
+</b></u>A player may capture another player's pawn in passing (En Passant) under very specific circumstances. This move is designed to prevent a player from taking advantage of the two-square first move rule for pawns which might allow them to pass their opponent's pawn(s) without a chance to capture.<br>
+The capture is made exactly as if the pawn moved only one square on the first move. This move, like any other, is optional and can occur as often as a similar situation arises between pawns.</font></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+  <tr>
+    <td width="18%" valign="top"><b><font face="Garamond">First Click:</font></b></td>
+    <td width="82%" valign="top"><font face="Garamond">On the square containing 
+    the Pawn.</font></td>
+  </tr>
+  <tr>
+    <td width="18%"><b><font face="Garamond">Second Click:</font></b></td>
+    <td width="82%"><font face="Garamond">On the square skipped by the Opponent 
+    Pawn.</font></td>
+  </tr>
+</table>
+<p align="justify"><font face="Garamond">The user will enter the text on the respective area and will click on the send button or will press the enter key.</font></p>
+<hr>
+</BODY>
+</HTML>

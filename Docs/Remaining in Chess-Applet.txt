@@ -1,0 +1,20 @@
+Chess Applet remaining:
+~~~~~~~~~~~~~~~~~~
+1) Promotion
+2) Option of draw.
+3) draw by repetition.
+4) Draw By 50 Move Rule
+
+
+Things Implemented in Chess Applet:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) Castling.
+2) Check Condition
+3) Rules
+4) Checkmate
+5) En-passant
+6) Stalemate
+7) Skipping a square for fresh Pawn.
+8) Avoid Castling during Check.
+9) Castling during skipping square in check.
+
